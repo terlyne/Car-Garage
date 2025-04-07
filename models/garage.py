@@ -32,7 +32,6 @@ class CGarage:
                     "Model",
                     "Color",
                     "Owner",
-                    "Description",
                 ]
                 ws.append(headers)
 
@@ -44,7 +43,6 @@ class CGarage:
                         car.model,
                         car.color,
                         car.owner,
-                        car.description,
                     ]
                 )
 
