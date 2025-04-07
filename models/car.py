@@ -1,6 +1,5 @@
 class CAuto:
-    def __init__(self, id=None, license_plate="", model="", color="", owner=""):
-        self.id = id
+    def __init__(self, license_plate, model, color, owner):
         self.license_plate = license_plate
         self.model = model
         self.color = color

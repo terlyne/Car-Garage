@@ -172,7 +172,7 @@ class MainWindow(QMainWindow):
         self.draw_info_garage_layout()
 
     def clear_inputs(self):
-        """Метод для очист ки полей ввода"""
+        """Метод для очистки полей ввода"""
         self.license_plate_input.clear()
         self.model_input.clear()
         self.color_input.clear()
